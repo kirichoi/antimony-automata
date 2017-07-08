@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 27 03:02:04 2016
 
-@author: KIRI
-"""
+# Script to simulate Antimony model following Conway's Game of Life
+# Copyright (c) 2017 Kiri Choi
 
 import os, sys
 import tellurium as te
@@ -20,7 +18,7 @@ f.close()
 
 r = te.loada(ant_str)
 
-results = r.simulate(0, 5, 50)
+results = r.simulate(0, 30, 31)
 
 ind_1 = np.shape(results)[1]/2
 #ind_2 = np.sqrt((np.shape(results)[1] - 2)/2)

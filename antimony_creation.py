@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+# Script to generate Antimony model from Life 1.06 format files
+# Copyright (c) 2017 Kiri Choi
+
 import numpy as np
 
 def readfiles(filename):
